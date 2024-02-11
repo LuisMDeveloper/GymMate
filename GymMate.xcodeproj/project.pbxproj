@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C18AA4ED2B784BA2003E0B31 /* GymMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18AA4EC2B784BA2003E0B31 /* GymMateApp.swift */; };
+		C18AA4EF2B784BA2003E0B31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18AA4EE2B784BA2003E0B31 /* ContentView.swift */; };
+		C18AA4F12B784BA5003E0B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18AA4F02B784BA5003E0B31 /* Assets.xcassets */; };
+		C18AA4F42B784BA5003E0B31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18AA4F32B784BA5003E0B31 /* Preview Assets.xcassets */; };
+		C18AA4FE2B784BA6003E0B31 /* GymMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18AA4FD2B784BA6003E0B31 /* GymMateTests.swift */; };
+		C18AA5082B784BA6003E0B31 /* GymMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18AA5072B784BA6003E0B31 /* GymMateUITests.swift */; };
+		C18AA50A2B784BA6003E0B31 /* GymMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18AA5092B784BA6003E0B31 /* GymMateUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C18AA4FA2B784BA6003E0B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C18AA4E12B784BA2003E0B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C18AA4E82B784BA2003E0B31;
+			remoteInfo = GymMate;
+		};
+		C18AA5042B784BA6003E0B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C18AA4E12B784BA2003E0B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C18AA4E82B784BA2003E0B31;
+			remoteInfo = GymMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C18AA4E92B784BA2003E0B31 /* GymMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18AA4EC2B784BA2003E0B31 /* GymMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymMateApp.swift; sourceTree = "<group>"; };
+		C18AA4EE2B784BA2003E0B31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C18AA4F02B784BA5003E0B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C18AA4F32B784BA5003E0B31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C18AA4F92B784BA6003E0B31 /* GymMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18AA4FD2B784BA6003E0B31 /* GymMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymMateTests.swift; sourceTree = "<group>"; };
+		C18AA5032B784BA6003E0B31 /* GymMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18AA5072B784BA6003E0B31 /* GymMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymMateUITests.swift; sourceTree = "<group>"; };
+		C18AA5092B784BA6003E0B31 /* GymMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C18AA4E62B784BA2003E0B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18AA4F62B784BA6003E0B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18AA5002B784BA6003E0B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C18AA4E02B784BA2003E0B31 = {
+			isa = PBXGroup;
+			children = (
+				C18AA4EB2B784BA2003E0B31 /* GymMate */,
+				C18AA4FC2B784BA6003E0B31 /* GymMateTests */,
+				C18AA5062B784BA6003E0B31 /* GymMateUITests */,
+				C18AA4EA2B784BA2003E0B31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C18AA4EA2B784BA2003E0B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C18AA4E92B784BA2003E0B31 /* GymMate.app */,
+				C18AA4F92B784BA6003E0B31 /* GymMateTests.xctest */,
+				C18AA5032B784BA6003E0B31 /* GymMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C18AA4EB2B784BA2003E0B31 /* GymMate */ = {
+			isa = PBXGroup;
+			children = (
+				C18AA4EC2B784BA2003E0B31 /* GymMateApp.swift */,
+				C18AA4EE2B784BA2003E0B31 /* ContentView.swift */,
+				C18AA4F02B784BA5003E0B31 /* Assets.xcassets */,
+				C18AA4F22B784BA5003E0B31 /* Preview Content */,
+			);
+			path = GymMate;
+			sourceTree = "<group>";
+		};
+		C18AA4F22B784BA5003E0B31 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C18AA4F32B784BA5003E0B31 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C18AA4FC2B784BA6003E0B31 /* GymMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				C18AA4FD2B784BA6003E0B31 /* GymMateTests.swift */,
+			);
+			path = GymMateTests;
+			sourceTree = "<group>";
+		};
+		C18AA5062B784BA6003E0B31 /* GymMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C18AA5072B784BA6003E0B31 /* GymMateUITests.swift */,
+				C18AA5092B784BA6003E0B31 /* GymMateUITestsLaunchTests.swift */,
+			);
+			path = GymMateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C18AA4E82B784BA2003E0B31 /* GymMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18AA50D2B784BA6003E0B31 /* Build configuration list for PBXNativeTarget "GymMate" */;
+			buildPhases = (
+				C18AA4E52B784BA2003E0B31 /* Sources */,
+				C18AA4E62B784BA2003E0B31 /* Frameworks */,
+				C18AA4E72B784BA2003E0B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymMate;
+			productName = GymMate;
+			productReference = C18AA4E92B784BA2003E0B31 /* GymMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C18AA4F82B784BA6003E0B31 /* GymMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18AA5102B784BA6003E0B31 /* Build configuration list for PBXNativeTarget "GymMateTests" */;
+			buildPhases = (
+				C18AA4F52B784BA6003E0B31 /* Sources */,
+				C18AA4F62B784BA6003E0B31 /* Frameworks */,
+				C18AA4F72B784BA6003E0B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C18AA4FB2B784BA6003E0B31 /* PBXTargetDependency */,
+			);
+			name = GymMateTests;
+			productName = GymMateTests;
+			productReference = C18AA4F92B784BA6003E0B31 /* GymMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C18AA5022B784BA6003E0B31 /* GymMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18AA5132B784BA6003E0B31 /* Build configuration list for PBXNativeTarget "GymMateUITests" */;
+			buildPhases = (
+				C18AA4FF2B784BA6003E0B31 /* Sources */,
+				C18AA5002B784BA6003E0B31 /* Frameworks */,
+				C18AA5012B784BA6003E0B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C18AA5052B784BA6003E0B31 /* PBXTargetDependency */,
+			);
+			name = GymMateUITests;
+			productName = GymMateUITests;
+			productReference = C18AA5032B784BA6003E0B31 /* GymMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C18AA4E12B784BA2003E0B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C18AA4E82B784BA2003E0B31 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C18AA4F82B784BA6003E0B31 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C18AA4E82B784BA2003E0B31;
+					};
+					C18AA5022B784BA6003E0B31 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C18AA4E82B784BA2003E0B31;
+					};
+				};
+			};
+			buildConfigurationList = C18AA4E42B784BA2003E0B31 /* Build configuration list for PBXProject "GymMate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C18AA4E02B784BA2003E0B31;
+			productRefGroup = C18AA4EA2B784BA2003E0B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C18AA4E82B784BA2003E0B31 /* GymMate */,
+				C18AA4F82B784BA6003E0B31 /* GymMateTests */,
+				C18AA5022B784BA6003E0B31 /* GymMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C18AA4E72B784BA2003E0B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18AA4F42B784BA5003E0B31 /* Preview Assets.xcassets in Resources */,
+				C18AA4F12B784BA5003E0B31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18AA4F72B784BA6003E0B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18AA5012B784BA6003E0B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C18AA4E52B784BA2003E0B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18AA4EF2B784BA2003E0B31 /* ContentView.swift in Sources */,
+				C18AA4ED2B784BA2003E0B31 /* GymMateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18AA4F52B784BA6003E0B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18AA4FE2B784BA6003E0B31 /* GymMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18AA4FF2B784BA6003E0B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18AA5082B784BA6003E0B31 /* GymMateUITests.swift in Sources */,
+				C18AA50A2B784BA6003E0B31 /* GymMateUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C18AA4FB2B784BA6003E0B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C18AA4E82B784BA2003E0B31 /* GymMate */;
+			targetProxy = C18AA4FA2B784BA6003E0B31 /* PBXContainerItemProxy */;
+		};
+		C18AA5052B784BA6003E0B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C18AA4E82B784BA2003E0B31 /* GymMate */;
+			targetProxy = C18AA5042B784BA6003E0B31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C18AA50B2B784BA6003E0B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C18AA50C2B784BA6003E0B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C18AA50E2B784BA6003E0B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GymMate/Preview Content\"";
+				DEVELOPMENT_TEAM = TD7SBTNXZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luismdeveloper.GymMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C18AA50F2B784BA6003E0B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GymMate/Preview Content\"";
+				DEVELOPMENT_TEAM = TD7SBTNXZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luismdeveloper.GymMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C18AA5112B784BA6003E0B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TD7SBTNXZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luismdeveloper.GymMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GymMate";
+			};
+			name = Debug;
+		};
+		C18AA5122B784BA6003E0B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TD7SBTNXZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luismdeveloper.GymMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GymMate";
+			};
+			name = Release;
+		};
+		C18AA5142B784BA6003E0B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TD7SBTNXZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luismdeveloper.GymMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GymMate;
+			};
+			name = Debug;
+		};
+		C18AA5152B784BA6003E0B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TD7SBTNXZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luismdeveloper.GymMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GymMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C18AA4E42B784BA2003E0B31 /* Build configuration list for PBXProject "GymMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18AA50B2B784BA6003E0B31 /* Debug */,
+				C18AA50C2B784BA6003E0B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18AA50D2B784BA6003E0B31 /* Build configuration list for PBXNativeTarget "GymMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18AA50E2B784BA6003E0B31 /* Debug */,
+				C18AA50F2B784BA6003E0B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18AA5102B784BA6003E0B31 /* Build configuration list for PBXNativeTarget "GymMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18AA5112B784BA6003E0B31 /* Debug */,
+				C18AA5122B784BA6003E0B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18AA5132B784BA6003E0B31 /* Build configuration list for PBXNativeTarget "GymMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18AA5142B784BA6003E0B31 /* Debug */,
+				C18AA5152B784BA6003E0B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C18AA4E12B784BA2003E0B31 /* Project object */;
+}
